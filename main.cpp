@@ -195,9 +195,11 @@ void display() {
 		glTranslated(posX, posY, posZ);
         glRotated(angleX, 1, 0, 0);
         badanP();
+        triangularPrism();
+        wingL();
+        wingR();
         tailP();
-		wingL();
-		wingR();
+
 	glPopMatrix();
 	glutSwapBuffers();
 }
@@ -217,3 +219,9 @@ int main(int argc, char **argv)
 	glutMainLoop();
 	return(0);
 }
+
+// Razky 041
+// Samsudin 013
+// Rina 089
+// Made 007
+// thoriq 095
